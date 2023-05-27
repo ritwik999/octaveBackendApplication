@@ -21,7 +21,7 @@ public class User {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
 
-    @Column(nullable = false,length = 40)
+    @Column(nullable = false,length = 50)
     private String name;
 
     @Column(nullable = false,length = 70,unique = true)
